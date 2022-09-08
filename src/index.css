@@ -1,0 +1,262 @@
+body {
+  margin: 0;
+  background: linear-gradient(to left, #a1f0e5, #9480a5);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.card {
+  width: 60%;
+  background-color: #acacb1a9;
+  margin-left: 20%;
+  margin-top: 25px;
+  border-radius: 20px;
+  padding-bottom: 30px;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: left;
+}
+
+.cardLeft img {
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+
+.cardHead {
+  margin-left: 5%;
+  margin-right: 20%;
+}
+
+.cardDescription {
+  margin-left: 20px;
+  padding-bottom: 25px;
+  margin-right: 20px;
+}
+
+.cardAction {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardAction button {
+  border-radius: 12px;
+  margin-right: 30px;
+  width: 20%;
+  height: 38px;
+  background-color: #e0f1f5;
+  margin-left: 8%;
+  width: 90px;
+  border-width: 0px;
+}
+
+.cardAction img {
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border-width: 0;
+}
+
+.cardBottom {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav {
+  background-color: #808085;
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 5%;
+  margin-left: 30%;
+  margin-top: 15px;
+}
+
+.navLeft {
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 10%;
+}
+
+.navRight {
+  display: flex;
+  flex-direction: row;
+}
+
+.navAction {
+  margin-left: 20%;
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+  margin-top: 30px;
+  height: 40px;
+}
+
+.navAction button {
+  border-radius: 12px;
+  margin-right: 20px;
+  background-color: #212127;
+  color: rgb(235, 241, 241);
+  border-width: 0;
+}
+
+.navRight {
+  padding-left: 30%;
+}
+
+.cart {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.addProduct input {
+  width: 70%;
+  margin-left: 15%;
+  height: 70px;
+  /* border-radius: 10px; */
+  border-width: 0px;
+  margin-top: 20px;
+  background-color: #eceff3;
+}
+
+.addProduct button {
+  border-radius: 12px;
+  height: 40px;
+  margin-top: 40px;
+  margin-left: 45%;
+  border: 0px;
+  background-color: #335281;
+  color: rgb(248, 249, 250);
+}
+
+.buttonDes {
+  border-radius: 12px;
+  margin-right: 5px;
+  color: rgb(45, 45, 187);
+  border-width: 0;
+}
+
+.afterAdded {
+  margin-top: 40px;
+  margin-left: 40%;
+}
+
+.afterAdded span {
+  background-color: rgb(187, 248, 106);
+  /* padding: 20px; */
+  width: 20%;
+}
+
+.afterAddedAction {
+  display: flex;
+  flex-direction: row;
+  margin-left: -20%;
+}
+
+.afterAddedAction button {
+  border-radius: 12px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.total {
+  margin-left: 10%;
+  width: 78%;
+  text-align: right;
+  padding-right: 2%;
+}
+
+.cartLength {
+  color: rgb(230, 230, 236);
+  width: 20px;
+  height: 20px;
+  align-content: center;
+  margin-top: -55px;
+  margin-left: 50px;
+}
+
+.footer {
+  margin: 0 auto;
+  text-align: center;
+  width: 10%;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+}
+
+.logos {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.name {
+  margin-top: 20px;
+}
+
+.footerItem {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+  margin-top: 5px;
+}
+
+.cardPr {
+  width: 80%;
+  background-color: lightblue;
+  margin-left: 10%;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding-bottom: 25px;
+}
+
+.cardPrAction button {
+  border-radius: 12px;
+  margin-right: 50px;
+  width: 20%;
+  height: 40px;
+  background-color: lightblue;
+  margin-left: 4%;
+  width: 100px;
+  border-width: 0px;
+}
+
+.cardPrAction img {
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border-width: 0;
+}
+
+.cardPrAction {
+  display: flex;
+  flex-direction: row;
+}
